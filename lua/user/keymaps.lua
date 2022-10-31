@@ -4,8 +4,8 @@ local keymap = vim.keymap.set
 local opts = { silent = true }
 
 --Remap space as leader key
-keymap("", "<Space>", "<Nop>", opts)
-vim.g.mapleader = " "
+keymap("", "<Space>", "<Nop>", opts)  --if i set <Space> as leader, remap it to nothing
+vim.g.mapleader = "'"
 
 -- Modes
 --   normal_mode = "n",
